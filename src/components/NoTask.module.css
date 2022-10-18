@@ -1,0 +1,12 @@
+.noTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.noTask > :nth-child(2){
+    margin-top: 1rem;
+    color: var(--gray-200);
+    font-weight: bold;
+}

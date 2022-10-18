@@ -1,0 +1,35 @@
+.task {
+    margin-top: 4rem;
+}
+
+.task > header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-500);
+    padding: 0 0 1rem 0;
+}
+
+.left, .rigth {
+    display: flex;
+    align-items: center;
+    height: 1.250rem;
+    gap: 0.5rem;
+}
+.left > p {
+    color: var(--blue);
+}
+
+.rigth > p {
+    color: var(--purple);
+}
+
+.number {
+    height: 1.250rem;
+    background: var(--gray-400);
+    color: var(--white);
+    padding: 0.125rem 0.5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
